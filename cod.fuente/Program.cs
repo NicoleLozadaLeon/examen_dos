@@ -1,19 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-bool fin = false;
+
 Console.WriteLine("*****CALCULADORA DE MRU Y MRUA*****");
 Console.WriteLine("*Calculadora de MRU = 1");
 Console.WriteLine("*Calculadora de MRUA = 2");
 Console.WriteLine("Seleccione una opción (1 - 2)");
 int option = Convert.ToInt32(Console.ReadLine());
-    switch(option){
-        case 1:
-        fin = false;
-        break;
-        case 2:
-        fin = true;
-        break;
-    }
-while(fin == false){
+while(option == 1){
     Console.WriteLine("¿Que desea calcular?");
     Console.WriteLine("* Distancia = 1    * Velocidad = 2     * Tiempo = 3");
     int calculo1 = Convert.ToInt32(Console.ReadLine());
@@ -43,18 +35,23 @@ while(fin == false){
         Console.WriteLine("Desea hacer otro cálculo?:");
         Console.WriteLine("Si, de MRU = 1");
         Console.WriteLine("Si, pero de MRUA = 2");
+        Console.WriteLine("No = 3");
         int continuar = Convert.ToInt32(Console.ReadLine());
          switch(continuar){
         case 1:
-        fin = false;
+        option = 1;
         break;
         case 2:
-        fin = true;
+        option = 2;
+        break;
+        case 3:
+        option = 3;
+        Console.WriteLine("Gracias por usar este programa :)");
         break;
     }
 }
 
-while(fin == true){
+while(option == 2){
     Console.WriteLine("¿Que desea calcular?");
     Console.WriteLine("* Posición final = 1    *  Velocidad final = 2     * Tiempo = 3");
     int calculo2 = Convert.ToInt32(Console.ReadLine());
@@ -92,13 +89,18 @@ while(fin == true){
     Console.WriteLine("Desea hacer otro cálculo?:");
         Console.WriteLine("Si, de MRU = 1");
         Console.WriteLine("Si, pero de MRUA = 2");
+        Console.WriteLine("No = 3");
         int continuar = Convert.ToInt32(Console.ReadLine());
          switch(continuar){
         case 1:
-        fin = false;
+        option = 1;
         break;
         case 2:
-        fin = true;
+        option = 2;
+        break;
+        case 3:
+        option = 3
+        Console.WriteLine("Gracias por usar este programa :)");
         break;
     }
 }
