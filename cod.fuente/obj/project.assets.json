@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\calculadora\\calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\cod.fuente\\calculadora.csproj",
       "projectName": "calculadora",
-      "projectPath": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\calculadora\\calculadora.csproj",
+      "projectPath": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\cod.fuente\\calculadora.csproj",
       "packagesPath": "C:\\Users\\ravzr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\calculadora\\obj\\",
+      "outputPath": "C:\\Users\\ravzr\\Escritorio\\myapp\\examen_dos\\cod.fuente\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ravzr\\AppData\\Roaming\\NuGet\\NuGet.Config"
