@@ -4,38 +4,44 @@ Console.WriteLine("*Calculadora de MRU = 1");
 Console.WriteLine("*Calculadora de MRUA = 2");
 Console.WriteLine("Seleccione una opción (1 -2)");
 int option = Convert.ToInt32(Console.ReadLine());
-if( option == 1){
+while( option == 1){
     Console.WriteLine("¿Que desea calcular?");
     Console.WriteLine("* Distancia = 3    * Velocidad = 4     * Tiempo = 5");
     int calculo1 = Convert.ToInt32(Console.ReadLine());
+    switch (calculo1){
+        case 3:
+            Console.WriteLine("Ingrese el valor de la velocidad");
+            int v3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del tiempo");
+            int t3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("{0}", v3 * t3);
+            break;
+        case 4:
+            Console.WriteLine("Ingrese el valor de la distancia");
+            int d4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del tiempo");
+            int t4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("{0}", d4 / t4);
+            break;
+        case 5:
+            Console.WriteLine("Ingrese el valor de la distancia");
+            int d5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor de la velocidad");
+            int v5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("{0}", d5 / v5);
+            break;
+    }
+
 
 }
-if( option == 2){
+while( option == 2){
     Console.WriteLine("¿Que desea calcular?");
-    Console.WriteLine("* Posición final = 3    *  Velocidad final = 4     * Tiempo = 5");
+    Console.WriteLine("* Posición final = 6    *  Velocidad final = 7     * Tiempo = 8");
     int calculo2 = Convert.ToInt32(Console.ReadLine());
+    switch (calculo2){
+        case 6:
+            break;
+    }
     
 }
-    //int continuar = Convert.ToInt32(Console.ReadLine()){
-    //    if(continuar == 2){
-    //        user = 2;
-    //    } 
-    //}
-//while( user = 1){
-
-//    Console.WriteLine("¿Desea realizar otra operacion?    - MRU = 1       - MRUA = 2       -NO = 3");
-//    int continuar = Convert.ToInt32(Console.ReadLine()){
-//        if(continuar == 2){
-//            user = 2;
-//        }
-//    }
-//}
-//while (user = 2){
-
-//    Console.WriteLine("¿Desea realizar otra operacion?     - MRU = 1       - MRUA = 2       -NO = 3");
-//    int continuar = Convert.ToInt32(Console.ReadLine()){
-//        if(continuar == 1){
-//            user = 1;
-//        }
-//    }
-//}
+    
