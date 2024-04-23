@@ -1,40 +1,60 @@
 ﻿// See https://aka.ms/new-console-template for more information
+bool fin = false;
 Console.WriteLine("*****CALCULADORA DE MRU Y MRUA*****");
 Console.WriteLine("*Calculadora de MRU = 1");
 Console.WriteLine("*Calculadora de MRUA = 2");
 Console.WriteLine("Seleccione una opción (1 - 2)");
 int option = Convert.ToInt32(Console.ReadLine());
-while( option == 1){
+    switch(option){
+        case 1:
+        fin = false;
+        break;
+        case 2:
+        fin = true;
+        break;
+    }
+while(fin == false){
     Console.WriteLine("¿Que desea calcular?");
     Console.WriteLine("* Distancia = 1    * Velocidad = 2     * Tiempo = 3");
     int calculo1 = Convert.ToInt32(Console.ReadLine());
-    switch (calculo1){
+        switch (calculo1){
+            case 1:
+                Console.WriteLine("Ingrese el valor de la velocidad");
+                int v3 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el valor del tiempo");
+                int t3 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("La distancia es {0}", v3 * t3);
+                break;
+            case 2:
+                Console.WriteLine("Ingrese el valor de la distancia");
+                int d4 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el valor del tiempo");
+                int t4 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("La velocidad es {0}", d4 / t4);
+                break;
+            case 3:
+                Console.WriteLine("Ingrese el valor de la distancia");
+                int d5 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el valor de la velocidad");
+                int v5 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("El tiempo es {0}", d5 / v5);
+                break;
+        }
+        Console.WriteLine("Desea hacer otro cálculo?:");
+        Console.WriteLine("Si, de MRU = 1");
+        Console.WriteLine("Si, pero de MRUA = 2");
+        int continuar = Convert.ToInt32(Console.ReadLine());
+         switch(continuar){
         case 1:
-            Console.WriteLine("Ingrese el valor de la velocidad");
-            int v3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el valor del tiempo");
-            int t3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("La distancia es {0}", v3 * t3);
-            break;
+        fin = false;
+        break;
         case 2:
-            Console.WriteLine("Ingrese el valor de la distancia");
-            int d4 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el valor del tiempo");
-            int t4 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("La velocidad es {0}", d4 / t4);
-            break;
-        case 3:
-            Console.WriteLine("Ingrese el valor de la distancia");
-            int d5 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el valor de la velocidad");
-            int v5 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("El tiempo es {0}", d5 / v5);
-            break;
+        fin = true;
+        break;
     }
-
-
 }
-while( option == 2){
+
+while(fin == true){
     Console.WriteLine("¿Que desea calcular?");
     Console.WriteLine("* Posición final = 1    *  Velocidad final = 2     * Tiempo = 3");
     int calculo2 = Convert.ToInt32(Console.ReadLine());
@@ -66,9 +86,20 @@ while( option == 2){
             int v3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de la aceleración");
             int a3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("La velocidad final es {0}", (v3 - v03) / a3 );
+            Console.WriteLine("El tiempo es {0}", (v3 - v03) / a3 );
             break;
     }
-    
+    Console.WriteLine("Desea hacer otro cálculo?:");
+        Console.WriteLine("Si, de MRU = 1");
+        Console.WriteLine("Si, pero de MRUA = 2");
+        int continuar = Convert.ToInt32(Console.ReadLine());
+         switch(continuar){
+        case 1:
+        fin = false;
+        break;
+        case 2:
+        fin = true;
+        break;
+    }
 }
     
