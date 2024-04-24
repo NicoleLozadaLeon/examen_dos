@@ -99,7 +99,7 @@ while(option == 2){
         option = 2;
         break;
         case 3:
-        option = 3
+        option = 3;
         Console.WriteLine("Gracias por usar este programa :)");
         break;
     }
