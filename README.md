@@ -39,7 +39,7 @@ Para calcular la velocidad final, ingrese el valor de la velocidad inicial, ingr
 
  `v = 1 + 1 * 3`
 
-Respuesta: 3
+Respuesta: 4
 #### Tiempo
 Para calcular el tiempo, ingrese el valor de velocidad final,, ingrese el valor de la velocidad incial y luego ingrese el valor de la aceleración.
 
