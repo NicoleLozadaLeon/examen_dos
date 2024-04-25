@@ -37,18 +37,15 @@ while(option == 1){
         Console.WriteLine("Si, pero de MRUA = 2");
         Console.WriteLine("No = 3");
         int continuar = Convert.ToInt32(Console.ReadLine());
-         switch(continuar){
-        case 1:
-        option = 1;
-        break;
-        case 2:
-        option = 2;
-        break;
-        case 3:
-        option = 3;
-        Console.WriteLine("Gracias por usar este programa :)");
-        break;
-    }
+        if(continuar == 2){
+            option = 2;
+        }
+        if(continuar == 3){
+            option = 3;
+            Console.WriteLine("Gracias por usar este programa :)");
+            break;
+        }
+        
 }
 
 while(option == 2){
@@ -91,17 +88,14 @@ while(option == 2){
         Console.WriteLine("Si, pero de MRUA = 2");
         Console.WriteLine("No = 3");
         int continuar = Convert.ToInt32(Console.ReadLine());
-         switch(continuar){
-        case 1:
-        option = 1;
-        break;
-        case 2:
-        option = 2;
-        break;
-        case 3:
-        option = 3;
-        Console.WriteLine("Gracias por usar este programa :)");
-        break;
-    }
+        if(continuar == 1){
+            option = 1;
+        }
+        if(continuar == 3){
+            option = 3;
+            Console.WriteLine("Gracias por usar este programa :)");
+            break;
+        }
+        
 }
     
