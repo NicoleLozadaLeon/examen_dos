@@ -14,9 +14,9 @@ while(option == 1){   //MRU: opcion ==1
             case 1:
                 Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRU *****");      
                 Console.WriteLine("Ingrese el valor de la velocidad");      
-                int v3 = Convert.ToInt32(Console.ReadLine());             //Ingresar un número para cada variable
+                double v3 = Convert.ToDouble(Console.ReadLine());             //Ingresar un número para cada variable
                 Console.WriteLine("Ingrese el valor del tiempo");
-                int t3 = Convert.ToInt32(Console.ReadLine());
+                double t3 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("La distancia es {0}", v3 * t3);        //lógica usando la formula de la distancia
                 break;
             case 2:
