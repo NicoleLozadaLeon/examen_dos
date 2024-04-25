@@ -32,6 +32,11 @@ Dos días
 
 ## Historial de Cambios
 
-- **[23/04/24]** Cambio realizado por Nicole - Código inicial
-- **[Fecha]** Cambio realizado por [Persona] - Detalle del cambio
+- **[23/04/24]** Cambio realizado por Nicole - Diseño visual
+- **[23/04/24]** Cambio realizado por Nicole - Creación de variables int
+- **[23/04/24]** Cambio realizado por Nicole - Switch de fórmulas
+- **[24/04/24]** Cambio realizado por Nicole - Opción de cambiar de tipo de  calculadora
+- **[24/04/24]** Cambio realizado por Nicole - Opción de salida
+- **[24/04/24]** Cambio realizado por Nicole - Tipo de dato double de las variables utilizadas en las fórmulas
+
 
