@@ -6,6 +6,7 @@ Console.WriteLine("*Calculadora de MRUA = 2");
 Console.WriteLine("Seleccione una opción (1 - 2)");
 int option = Convert.ToInt32(Console.ReadLine());           //Ingresar un número = elegir una opción
 while(option == 1){   //MRU: opcion ==1
+    Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRU *****"); 
     Console.WriteLine("¿Que desea calcular?");           //diseño del programa
     Console.WriteLine("* Distancia = 1    * Velocidad = 2     * Tiempo = 3");
     int calculo1 = Convert.ToInt32(Console.ReadLine());      //Ingresar un número = elegir una opción
@@ -52,6 +53,7 @@ while(option == 1){   //MRU: opcion ==1
 }
 
 while(option == 2){     //MRUA: opcion == 2
+    Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRUA *****");
     Console.WriteLine("¿Que desea calcular?");           //diseño del programa
     Console.WriteLine("* Posición final = 1    *  Velocidad final = 2     * Tiempo = 3");
     int calculo2 = Convert.ToInt32(Console.ReadLine());              //Ingresar un número = elegir una opción
