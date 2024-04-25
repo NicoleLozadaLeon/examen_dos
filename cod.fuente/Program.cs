@@ -74,10 +74,10 @@ while(option == 2){     //MRUA: opcion == 2
             Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRUA *****");
             Console.WriteLine("Ingrese el valor de la velocidad inicial");
             double v02 = Convert.ToDouble(Console.ReadLine());                              //Ingresar un número para cada variable
-            Console.WriteLine("Ingrese el valor del tiempo");
-            double t2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de la aceleración");
             double a2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del tiempo");
+            double t2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("La velocidad final es {0}", v02 + a2 * t2 );             //lógica usando la formula de la velocidad
             break;
         case 3:

@@ -37,7 +37,7 @@ Respuesta: 4, 50000
 #### Velocidad final
 Para calcular la velocidad final, ingrese el valor de la velocidad inicial, ingrese la aceleración, y luego ingrese el valor del tiempo.
 
- `v = 1 * 1 * 3`
+ `v = 1 + 1 * 3`
 
 Respuesta: 3
 #### Tiempo
