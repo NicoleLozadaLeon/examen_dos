@@ -22,17 +22,17 @@ while(option == 1){   //MRU: opcion ==1
             case 2:
                 Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRU *****");
                 Console.WriteLine("Ingrese el valor de la distancia");
-                int d4 = Convert.ToInt32(Console.ReadLine());             //Ingresar un número para cada variable
+                double d4 = Convert.ToDouble(Console.ReadLine());             //Ingresar un número para cada variable
                 Console.WriteLine("Ingrese el valor del tiempo");
-                int t4 = Convert.ToInt32(Console.ReadLine());
+                double t4 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("La velocidad es {0}", d4 / t4);          //lógica usando la formula de la velocidad
                 break;
             case 3:
                 Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRU *****");
                 Console.WriteLine("Ingrese el valor de la distancia");          //Ingresar un número para cada variable
-                int d5 = Convert.ToInt32(Console.ReadLine());
+                double d5 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Ingrese el valor de la velocidad");
-                int v5 = Convert.ToInt32(Console.ReadLine());
+                double v5 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("El tiempo es {0}", d5 / v5);             //lógica usando la formula del tiempo
                 break;
         }
@@ -61,33 +61,33 @@ while(option == 2){     //MRUA: opcion == 2
         case 1:
             Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRUA *****");
             Console.WriteLine("Ingrese el valor de la posción inicial");
-            int x01 = Convert.ToInt32(Console.ReadLine());                       //Ingresar un número para cada variable
+            double x01 = Convert.ToDouble(Console.ReadLine());                       //Ingresar un número para cada variable
             Console.WriteLine("Ingrese el valor de la velocidad inicial");
-            int v01 = Convert.ToInt32(Console.ReadLine());
+            double v01 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor del tiempo");
-            int t1 = Convert.ToInt32(Console.ReadLine());
+            double t1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de la aceleración");
-            int a1 = Convert.ToInt32(Console.ReadLine());
+            double a1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("La posición final es {0}", x01 + v01 * t1 + 0.5 * a1 * (t1 * t1));     //lógica usando la formula de la posición final
             break;
         case 2:
             Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRUA *****");
             Console.WriteLine("Ingrese el valor de la velocidad inicial");
-            int v02 = Convert.ToInt32(Console.ReadLine());                              //Ingresar un número para cada variable
+            double v02 = Convert.ToDouble(Console.ReadLine());                              //Ingresar un número para cada variable
             Console.WriteLine("Ingrese el valor del tiempo");
-            int t2 = Convert.ToInt32(Console.ReadLine());
+            double t2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de la aceleración");
-            int a2 = Convert.ToInt32(Console.ReadLine());
+            double a2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("La velocidad final es {0}", v02 + a2 * t2 );             //lógica usando la formula de la velocidad
             break;
         case 3:
             Console.WriteLine("***** BIENVENIDO A LA CALCULADORA DE MRUA *****");
             Console.WriteLine("Ingrese el valor de la velocidad inicial");
-            int v03 = Convert.ToInt32(Console.ReadLine());                            //Ingresar un número para cada variable
+            double v03 = Convert.ToDouble(Console.ReadLine());                            //Ingresar un número para cada variable
             Console.WriteLine("Ingrese el valor de la velocidad final");
-            int v3 = Convert.ToInt32(Console.ReadLine());
+            double v3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de la aceleración");
-            int a3 = Convert.ToInt32(Console.ReadLine());
+            double a3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("El tiempo es {0}", (v3 - v03) / a3 );                 //lógica usando la formula del tiempo
             break; 
     }
